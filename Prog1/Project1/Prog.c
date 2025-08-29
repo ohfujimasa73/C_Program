@@ -4,7 +4,7 @@
 #pragma warning(disable:4996)
 
 int main() {
-    int length;
+    int length = 0;
     char  moji[20] = {'\0'}, * pmoji;
 
 
@@ -18,9 +18,8 @@ int main() {
     /* ポインタに文字列のアドレスを代入 */
     pmoji = moji;
 
-    printf("入力された文字列を逆順に表示します。\n");
     for (int loop = 1; loop <= length; loop++) {
-        printf("%s\n", (pmoji + (char)length - (char)loop));
+        printf("%s\n", (pmoji + length - loop));
     }
 
     return 0;
