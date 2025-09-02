@@ -2,7 +2,7 @@
 #include "Func.h"
 class Func2 : public Func{
 private:
-	int value;
+	//int value;
 
 public:
 	Func2(int in);
