@@ -1,0 +1,3 @@
+﻿  Prog.c
+C:\Users\user\Desktop\C言語\C_Program\Prog1\Project1\Prog.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Project1.vcxproj -> C:\Users\user\Desktop\C言語\C_Program\Prog1\Project1\x64\Debug\Project1.exe
